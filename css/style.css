@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #F9F9F9;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 136%;
+  color: #000;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+h3 {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.first-section {
+  background: #EEEFF1;
+  padding-top: 79px;
+  padding-bottom: 141px;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+
+.nav-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-item {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+
+.color {
+  color: #34547A
+}
+
+.nav-menu li {
+  float: left;
+  margin-bottom: 151px;
+}
+
+.nav-menu li:not(:last-child) {
+  margin-right: 42px;
+}
+
+.wrapper {
+  clear: both;
+}
+
+.discription {
+  max-width: 540px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 164.063%;
+  color: #727272;
+}
+
+.title {
+  margin: 0 0 60px 0;
+}
+
+.button {
+  padding: 25px 65px;
+  background: #34547A;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1.6px;
+  margin-top: 65px;
+}
+
+.about-section {
+  text-align: center;
+  padding: 112px 0 100px;
+}
+
+.subtitle {
+  margin: 0 0 50px;
+}
+
+.center {
+  margin: auto;
+}
+
+.icon-section {
+  background: var(--Accent, #34547A);
+  padding: 100px 0;
+  text-align: center;
+}
+
+.icon-block {
+  display: inline-block;
+}
+
+.icon-block:not(:last-child) {
+  margin-right: 45px;
+}
+
+.text-box {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 20px;
+}
+
+.number {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.text {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 164.063%;
+}
+
+.work-section {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.video {
+  margin-top: 57px;
+}
+
+.footer {
+  background: var(--Accent, #34547A);
+  padding: 50px 0;
+}
+
+.footer-title {
+  margin: 0 0 20px;
+}
+
+.copyright {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 164.063%;
+  margin: 0;
+}
